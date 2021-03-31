@@ -57,10 +57,21 @@ void setup() {
 
 // the code inside loop() has been updated by Robojax
 void loop() {
-  pwm.setPWM(0, 0,angleToPulse(0 ));
-  delay(750);
+ 
+  pwm.setPWM(0, 0,angleToPulse(160 ));
+  delay(550);
+  pwm.setPWM(0, 0,angleToPulse(5) );
+  delay(550);
+  pwm.setPWM(0, 0,angleToPulse(25) );
+  delay(550);
+  pwm.setPWM(0, 0,angleToPulse(45) );
+  delay(550);
+  pwm.setPWM(0, 0,angleToPulse(90 ));
+  delay(550);
+  pwm.setPWM(0, 0,angleToPulse(135) );
+  delay(550); 
   pwm.setPWM(0, 0,angleToPulse(180) );
-  delay(950); 
+  delay(550); 
 }
 
 
